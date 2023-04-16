@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+p {
+    margin-right: 3em;
+}
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+    letter-spacing: 0,4;
+    font-size: 2em;
+    font-weight: 600;
+}
+button.redondo {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 1.5em;
+    height: 2emx;
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    border-bottom: 1px solid gray;
+}
+#header-right {
+    display: flex;
+    align-items: center;
+}
+#introduction {
+    padding: 48px;
+}
+#introduction-actions {
+    margin-top: 25px;
+}
+button.border-violeta {
+    border: 1px solid #6F2DBD;
+    color: #6F2DBD;
+}
+@media (width >=2000px) {
+    body {
+        font-size: 20px;
+    }
+}
+@media (width >=4000px) {
+    body {
+        font-size: 30px;
+    }
+}
